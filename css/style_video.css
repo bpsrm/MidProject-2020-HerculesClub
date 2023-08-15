@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'fc_galaxyitalic';
+    src: url('fc_galaxy_italic-webfont.woff2') format('woff2'),
+         url('fc_galaxy_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'fc_galaxyregular';
+    src: url('fc_galaxy_regular-webfont.woff2') format('woff2'),
+         url('fc_galaxy_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+	background-color: #222831;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "fc_galaxyregular",sans-serif;
+	font-weight: lighter;
+}
+#wrapper{
+	width: 1280px;
+	margin: 0 auto;
+}
+header{
+	width: 1280px;
+	height: 200px;
+	background: #222831;
+}
+nav{
+	width: 100%;
+	height: 0px;
+	line-height: 10px;
+	/*background-color: #222831;*/
+	/*position: fixed;*/
+}
+.logo{
+	width: 325px;
+	/*height: 325px;*/
+	float: left;
+	margin: -20px 40px;
+}
+nav ul{
+	line-height: 40px;
+	list-style: none;
+	background: rgba(0,0,0,0);
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+	padding-right: 80px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 60px 0px 10px 30px; 
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 32px;
+}
+nav ul li a:hover{
+	color: #32E0C4;
+	transition: 0.5s;
+}
+nav ul li i{
+	cursor: pointer;
+	color: #fff;
+}
+nav ul li i:hover{
+	transition: 0.5s;
+	color: #32E0C4;
+}
+.icon-head{
+	font-size: 34px;
+	width: 100%;
+	line-height: 60px;
+	text-align: right;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	padding-top: 10px;
+}
+.icon-head i:hover{
+	color: #32E0C4;
+	transition: 0.5s;
+}
+.icon-head a{
+	font-family: "fc_galaxyregular",sans-serif;
+	color: #fff;
+	font-size: 32px;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 80px;
+}
+.icon-head a:hover{
+	color: #32E0C4;
+	transition: 0.5s;
+}
+#video{
+	width: 100%;
+	height: 750px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.boxvi{
+	width: 890px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 50px;
+	box-shadow: 5px 5px 5px #000;
+}
+.boxvi p{
+	font-size: 48px;
+	color: #fff;
+	text-align: left;
+	padding-top: 20px;
+}
+#footer{
+	width: 100%;
+	height: 250px;
+	background: #222831;
+	padding-right: 50px;
+	float: right;
+}
+.contact{
+	padding-top: 50px;
+	padding-right: 60px;
+}
+.contact i{
+	color: #fff;
+	font-size: 35px;
+	float: right;
+	padding-right: 20px;
+}
+.contact a{
+	text-decoration: none;
+	list-style: none;
+}
+.contact p{
+	font-size: 20px;
+	color: #fff;
+	margin-top: 60px; 
+	margin-right: -190px;
+	float: right;
+}
+.totop a{ 
+	font-size: 35px;
+	color: #32E0C4;
+	float: right;
+}
+.totop a:hover{
+	color: #fff;
+	transition: 0.5s;
+}
+.logo2{
+	width: 325px;
+	/*height: 200px;*/
+	float: left;
+	margin: 20px 40px;
+}
